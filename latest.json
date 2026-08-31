@@ -1,7 +1,7 @@
 {
-  "versionCode": 5,
-  "versionName": "0.4 beta",
-  "notes": "The equaliser works while a record is playing. Shelves can be deleted. Cases turn at whatever speed you like. A proper title card, a redrawn Add Album and Settings, and a quality readout that no longer overstates what it knows.",
-  "apkUrl": "https://github.com/veneficus7/javon-releases/releases/download/v0.4/jawon-0.4-beta.apk",
-  "sizeBytes": 39284653
+  "versionCode": 6,
+  "versionName": "0.4.1 beta",
+  "notes": "A new app icon. The disc on your home screen and on the title card now holds its contrast at small sizes instead of collapsing into a beige circle. Nothing else has changed from 0.4 beta.",
+  "apkUrl": "https://github.com/veneficus7/javon-releases/releases/download/v0.4.1/jawon-0.4.1-beta.apk",
+  "sizeBytes": 39284337
 }
