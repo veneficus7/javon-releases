@@ -1,7 +1,7 @@
 {
-  "versionCode": 6,
-  "versionName": "0.4.1 beta",
-  "notes": "A new app icon. The disc on your home screen and on the title card now holds its contrast at small sizes instead of collapsing into a beige circle. Nothing else has changed from 0.4 beta.",
-  "apkUrl": "https://github.com/veneficus7/javon-releases/releases/download/v0.4.1/jawon-0.4.1-beta.apk",
-  "sizeBytes": 39284337
+  "versionCode": 7,
+  "versionName": "0.4.2 beta",
+  "notes": "Fixes a crash on launch on Android 8, 9, 10 and 11. Every release before this one died the moment you opened it on those versions — the splash screen was built from a drawable the platform could not inflate, and it failed before any of the app's own code ran. Android 12 and up were never affected.",
+  "apkUrl": "https://github.com/veneficus7/javon-releases/releases/download/v0.4.2/jawon-0.4.2-beta.apk",
+  "sizeBytes": 39284333
 }
