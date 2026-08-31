@@ -29,7 +29,7 @@ as an update; the app compares that number and nothing else.
 Every release is signed with the same key. You can check one before installing:
 
 ```bash
-apksigner verify --print-certs jawon-0.3-beta.apk
+apksigner verify --print-certs jawon-0.4-beta.apk
 ```
 
 ```
