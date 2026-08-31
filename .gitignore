@@ -1,0 +1,6 @@
+# APKs are release assets, never commits.
+#
+# A 37MB binary in git history is 37MB in every clone forever, and git cannot
+# forget it without rewriting history. GitHub releases exist for exactly this,
+# and latest.json points at the asset URL rather than at anything in the tree.
+*.apk
