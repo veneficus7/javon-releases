@@ -1,7 +1,7 @@
 {
-  "versionCode": 7,
-  "versionName": "0.4.2 beta",
-  "notes": "Fixes a crash on launch on Android 8, 9, 10 and 11. Every release before this one died the moment you opened it on those versions — the splash screen was built from a drawable the platform could not inflate, and it failed before any of the app's own code ran. Android 12 and up were never affected.",
-  "apkUrl": "https://github.com/veneficus7/javon-releases/releases/download/v0.4.2/jawon-0.4.2-beta.apk",
-  "sizeBytes": 39284333
+  "versionCode": 8,
+  "versionName": "0.4.3 beta",
+  "notes": "Fixes a crash on launch on Android 9 and 10 — the haptics used a vibration API that only exists from Android 10 onward, and called it while the room was being built, so an older phone closed on the way in. Android 10 and up were never affected. Also: save and restore your collection to a file, ReplayGain volume levelling, a thumb rail for flipping through a large library, a listening record, and cases that wear in as you play them.",
+  "apkUrl": "https://github.com/veneficus7/javon-releases/releases/download/v0.4.3/jawon-0.4.3-beta.apk",
+  "sizeBytes": 39333485
 }
