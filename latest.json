@@ -1,7 +1,7 @@
 {
-  "versionCode": 8,
-  "versionName": "0.4.3 beta",
-  "notes": "Fixes a crash on launch on Android 9 and 10 — the haptics used a vibration API that only exists from Android 10 onward, and called it while the room was being built, so an older phone closed on the way in. Android 10 and up were never affected. Also: save and restore your collection to a file, ReplayGain volume levelling, a thumb rail for flipping through a large library, a listening record, and cases that wear in as you play them.",
-  "apkUrl": "https://github.com/veneficus7/javon-releases/releases/download/v0.4.3/jawon-0.4.3-beta.apk",
-  "sizeBytes": 39333485
+  "versionCode": 9,
+  "versionName": "0.4.4 beta",
+  "notes": "Hold the disc and you can hear it now — spin it back and forth while a record plays and the audio follows your hand, at the pitch it was recorded at. Cover art no longer disappears on cases turned away from the lamp. The wall can be filed six ways, and filing by album or artist turns the thumb rail into a real A-Z index. There is a search box, a sleep timer that stops at the end of the record, and your whole collection can now be backed up to a file and restored.",
+  "apkUrl": "https://github.com/veneficus7/javon-releases/releases/download/v0.4.4/jawon-0.4.4-beta.apk",
+  "sizeBytes": 39382149
 }
