@@ -1,7 +1,7 @@
 {
-  "versionCode": 9,
-  "versionName": "0.4.4 beta",
-  "notes": "Hold the disc and you can hear it now — spin it back and forth while a record plays and the audio follows your hand, at the pitch it was recorded at. Cover art no longer disappears on cases turned away from the lamp. The wall can be filed six ways, and filing by album or artist turns the thumb rail into a real A-Z index. There is a search box, a sleep timer that stops at the end of the record, and your whole collection can now be backed up to a file and restored.",
-  "apkUrl": "https://github.com/veneficus7/javon-releases/releases/download/v0.4.4/jawon-0.4.4-beta.apk",
-  "sizeBytes": 39382149
+  "versionCode": 10,
+  "versionName": "0.5 beta",
+  "notes": "A performance release: the room is lighter on the phone and the battery. The rack's idle animations no longer keep the screen redrawing when nothing is moving, the shelf underlights stopped being repositioned sixty times a second to the same spot, and the glow now renders at a cheaper quality that costs a quarter less to draw without looking any different. The app also stops rendering entirely when you leave it — only the music keeps going.",
+  "apkUrl": "https://github.com/veneficus7/javon-releases/releases/download/v0.5/jawon-0.5-beta.apk",
+  "sizeBytes": 39615193
 }
