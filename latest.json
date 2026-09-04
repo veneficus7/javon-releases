@@ -1,7 +1,7 @@
 {
-  "versionCode": 11,
-  "versionName": "0.5.1 beta",
-  "notes": "Another performance release. The room now skips drawing frames it has no reason to draw — full speed while you're touching it or the disc is spinning, slower when the wall is just sitting there — and it also draws itself at a lower resolution than the screen, at whatever size the phone's own GPU says it can hold, while every 2D screen stays sharp. Also fixed a bug that had ambient occlusion running on the flat wall this whole time despite being switched off there.",
-  "apkUrl": "https://github.com/veneficus7/javon-releases/releases/download/v0.5.1/jawon-0.5.1-beta.apk",
-  "sizeBytes": 39631581
+  "versionCode": 12,
+  "versionName": "0.5.2 beta",
+  "notes": "Mostly repairs. Lyrics now arrive for far more tracks — the online lookup was giving up before it asked whenever a file had no per-track artist. Volume levelling actually runs for the first time. Importing a record you already have no longer adds a second copy, and multi-disc albums keep their discs. When a record finishes the case now closes itself and puts you back on the wall. You can remove several albums at once from the shelf list, the tracklist shows marks for the tracks you come back to, and the crate rail is now the main way to cross the wall.",
+  "apkUrl": "https://github.com/veneficus7/javon-releases/releases/download/v0.5.2/jawon-0.5.2-beta.apk",
+  "sizeBytes": 39664405
 }
