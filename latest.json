@@ -1,7 +1,7 @@
 {
-  "versionCode": 12,
-  "versionName": "0.5.2 beta",
-  "notes": "Mostly repairs. Lyrics now arrive for far more tracks — the online lookup was giving up before it asked whenever a file had no per-track artist. Volume levelling actually runs for the first time. Importing a record you already have no longer adds a second copy, and multi-disc albums keep their discs. When a record finishes the case now closes itself and puts you back on the wall. You can remove several albums at once from the shelf list, the tracklist shows marks for the tracks you come back to, and the crate rail is now the main way to cross the wall.",
-  "apkUrl": "https://github.com/veneficus7/javon-releases/releases/download/v0.5.2/jawon-0.5.2-beta.apk",
-  "sizeBytes": 39664405
+  "versionCode": 13,
+  "versionName": "0.6 beta",
+  "notes": "A new room, and three new places for records to come from. The wall is a real record rack now, with a strip light in every shelf and each album lit from beneath by its own light, so the covers are properly lit for the first time. A record shop browses and plays openly licensed music from the Internet Archive; a music server of your own can hold a library too big for the phone; and your saved Spotify albums can go on the wall, with Spotify playing the sound. Music is no longer turned down by default, TONE works on every phone, and there is an early CD ripper for USB drives.",
+  "apkUrl": "https://github.com/veneficus7/javon-releases/releases/download/v0.6/jawon-0.6-beta.apk",
+  "sizeBytes": 39878113
 }
