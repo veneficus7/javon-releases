@@ -1,7 +1,7 @@
 {
-  "versionCode": 13,
-  "versionName": "0.6 beta",
-  "notes": "A new room, and three new places for records to come from. The wall is a real record rack now, with a strip light in every shelf and each album lit from beneath by its own light, so the covers are properly lit for the first time. A record shop browses and plays openly licensed music from the Internet Archive; a music server of your own can hold a library too big for the phone; and your saved Spotify albums can go on the wall, with Spotify playing the sound. Music is no longer turned down by default, TONE works on every phone, and there is an early CD ripper for USB drives.",
-  "apkUrl": "https://github.com/veneficus7/javon-releases/releases/download/v0.6/jawon-0.6-beta.apk",
+  "versionCode": 14,
+  "versionName": "0.6.1 beta",
+  "notes": "Every room has its own strip light now — amber, ice, cyan or phosphor green — and the glow on each shelf back is the tube's own colour, so the light looks like it comes from the tube. Case edges are smoother, drawn with multisample anti-aliasing, and an open case shows its album art inside the lid instead of clear plastic.",
+  "apkUrl": "https://github.com/veneficus7/javon-releases/releases/download/v0.6.1/jawon-0.6.1-beta.apk",
   "sizeBytes": 39878113
 }
