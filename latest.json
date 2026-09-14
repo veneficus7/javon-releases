@@ -1,7 +1,7 @@
 {
-  "versionCode": 14,
-  "versionName": "0.6.1 beta",
-  "notes": "Every room has its own strip light now — amber, ice, cyan or phosphor green — and the glow on each shelf back is the tube's own colour, so the light looks like it comes from the tube. Case edges are smoother, drawn with multisample anti-aliasing, and an open case shows its album art inside the lid instead of clear plastic.",
-  "apkUrl": "https://github.com/veneficus7/javon-releases/releases/download/v0.6.1/jawon-0.6.1-beta.apk",
-  "sizeBytes": 39878113
+  "versionCode": 15,
+  "versionName": "0.6.2 beta",
+  "notes": "The room became a room: a floor, brick you can see, and things standing in it — your records framed and on posters, a clock, a turntable, a plant. Warmer and brighter, with the light taken off your album art so covers keep their own colour. Browsing has detents now: one tick per album as the wall goes past. And a long list of Spotify fixes.",
+  "apkUrl": "https://github.com/veneficus7/javon-releases/releases/download/v0.6.2/jawon-0.6.2-beta.apk",
+  "sizeBytes": 40008265
 }
