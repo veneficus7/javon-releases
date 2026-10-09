@@ -1,11 +1,19 @@
 # Jawon — Privacy Policy
 
-**Last updated: 9 October 2026**
+**Last updated: 10 October 2026**
 
 Jawon is a music player for music you already own. It has no accounts, no server
 of its own, and no analytics. This policy describes everything it does with your
 data, which is not much — and the parts that are not "nothing" are set out plainly
 rather than buried.
+
+**What changed on 10 October 2026:** Jawon reads a few more of the phone's own sensors, all on
+the phone and none of them needing a permission: a shake (two quick jolts) switches rooms in any
+room; the pocket player turns its Cover Flow sideways when you turn the phone, steers its Brick game
+and browses covers by how far you lean it, locks its wheel when the proximity sensor is covered (as
+in a pocket), dims its screen in a dark room from the light sensor, and shows the phone's battery
+level in its title bar. Nothing any of them reads is stored or sent; see "Permissions, and why".
+Nothing else changed: still six uses of the network, and still nothing to the developer.
 
 **What changed on 9 October 2026:** the pocket player, a second room, reads the phone's
 motion sensor while it is on screen, so the light on its face moves when you tilt the phone.
@@ -279,7 +287,10 @@ otherwise no way for the developer to learn that Jawon broke on your phone.
 | **Notifications** | To show the playback notification with the track and its controls. |
 | **Foreground service** | To keep playing when the screen is off, which is what a music player is for. |
 | **Vibrate** | The tick you feel when turning the disc to scrub, and on each step of the pocket player's wheel. |
-| **Motion sensor** (no permission needed) | Only in the pocket player, and only while it is on screen: how far the phone has just been tilted, so the reflections on the player's face slide as a real one's would. Each reading is used for the next frame and then discarded — never stored, never sent. |
+| **Motion sensors** (no permission needed) | Only while a room is on screen. In any room, a shake — two quick jolts back and forth — switches to the next room (Settings can turn this off). In the pocket player: how far the phone has just been tilted, so the reflections on its face slide as a real one's would; which way up it is held, so Cover Flow fills the screen when you turn it sideways; and how far it leans, to browse the covers and to steer the Brick game (the device's own Settings can turn the turning and leaning off). Each reading is used for the next frame and then discarded — never stored, never sent. |
+| **Proximity sensor** (no permission needed) | Only while a room is on screen: whether something covers the top of the phone, so a shake in a pocket is not taken for a request, and so the pocket player's wheel locks (its "Hold") while covered. Used at once and discarded — never stored, never sent. |
+| **Light sensor** (no permission needed) | Only in the pocket player, while it is on screen: how bright the room is, so its screen dims a little in the dark. Used at once and discarded — never stored, never sent. |
+| **Battery level** (no permission needed) | Only in the pocket player, while it is on screen: the level and whether it is charging, for the battery in its title bar. Read from the system's own announcement, never stored, never sent. |
 | **Modify audio settings** | To attach the equaliser and effects to Jawon's own playback. It cannot change any other app's audio. |
 | **Install unknown apps** | Only for the self-update above, and only on directly-installed builds. Android always shows its own confirmation; Jawon cannot install anything silently. |
 
