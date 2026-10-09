@@ -1,7 +1,7 @@
 {
-  "versionCode": 16,
-  "versionName": "0.7 beta",
-  "notes": "Every flat screen now shares one look, FIND sits in the bottom row within thumb reach, and the record shop's live concerts work again. Spotify is gone: albums from it leave your wall, since Spotify never gave Jawon the music to play.",
-  "apkUrl": "https://github.com/veneficus7/javon-releases/releases/download/v0.7/jawon-0.7-beta.apk",
-  "sizeBytes": 41164199
+  "versionCode": 17,
+  "versionName": "0.7.1 beta",
+  "notes": "A second room: the pocket player. Your phone becomes the player, with a click wheel under your thumb. On the wall, press Back or tap the neon sign to reach the showroom, or choose it in Settings → THE ROOM.",
+  "apkUrl": "https://github.com/veneficus7/javon-releases/releases/download/v0.7.1/jawon-0.7.1-beta.apk",
+  "sizeBytes": 41164195
 }
