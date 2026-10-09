@@ -1,7 +1,7 @@
 {
-  "versionCode": 15,
-  "versionName": "0.6.2 beta",
-  "notes": "The room became a room: a floor, brick you can see, and things standing in it — your records framed and on posters, a clock, a turntable, a plant. Warmer and brighter, with the light taken off your album art so covers keep their own colour. Browsing has detents now: one tick per album as the wall goes past. And a long list of Spotify fixes.",
-  "apkUrl": "https://github.com/veneficus7/javon-releases/releases/download/v0.6.2/jawon-0.6.2-beta.apk",
-  "sizeBytes": 40008265
+  "versionCode": 16,
+  "versionName": "0.7 beta",
+  "notes": "Every flat screen now shares one look, FIND sits in the bottom row within thumb reach, and the record shop's live concerts work again. Spotify is gone: albums from it leave your wall, since Spotify never gave Jawon the music to play.",
+  "apkUrl": "https://github.com/veneficus7/javon-releases/releases/download/v0.7/jawon-0.7-beta.apk",
+  "sizeBytes": 41164199
 }
