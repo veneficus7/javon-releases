@@ -1,7 +1,7 @@
 {
-  "versionCode": 20,
-  "versionName": "0.7.5 beta",
-  "notes": "Lighter and faster: a 26 MB download, a new Graphics setting (Balanced, Best looking, Light), a wall that rests when you leave it, and TalkBack support in every room.",
-  "apkUrl": "https://github.com/veneficus7/javon-releases/releases/download/v0.7.5/jawon-0.7.5-beta.apk",
-  "sizeBytes": 25912300
+  "versionCode": 21,
+  "versionName": "0.7.6 beta",
+  "notes": "Use Jawon without opening it: a home-screen widget, shortcuts, a quick tile, Android Auto, \"Play ... on Jawon\" by voice, and Open with Jawon for songs and album ZIPs. One longer intro instead of two short ones, and CD import with steps.",
+  "apkUrl": "https://github.com/veneficus7/javon-releases/releases/download/v0.7.6/jawon-0.7.6-beta.apk",
+  "sizeBytes": 26054976
 }
