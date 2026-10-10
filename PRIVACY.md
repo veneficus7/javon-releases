@@ -7,6 +7,15 @@ of its own, and no analytics. This policy describes everything it does with your
 data, which is not much — and the parts that are not "nothing" are set out plainly
 rather than buried.
 
+**What also changed on 10 October 2026 (version 0.7.6):** Jawon can now be used from outside
+itself, and each of these is described under **Outside the app** below. Your **car** (Android
+Auto), your phone's **assistant** and Android's own **media controls** can see the names and
+covers of your records and start one. A **home-screen widget**, a **Quick Settings tile** and
+**shortcuts** on the icon show the record you were on. **"Open with Jawon"** copies a song or an
+album ZIP that you choose into the `Music/Jawon` folder on your phone. And an **opt-in** setting
+lets headphones or a car start the music. No new permission is requested, and none of it sends
+anything to the developer or to any server of Jawon's — there is none.
+
 **What changed on 10 October 2026:** Jawon reads a few more of the phone's own sensors, all on
 the phone and none of them needing a permission: a shake (two quick jolts) switches rooms in any
 room; the pocket player turns its Cover Flow sideways when you turn the phone, steers its Brick game
@@ -51,7 +60,9 @@ including the developer — can see your library, your listening history, or tha
 you use the app at all.
 
 Your music, your shelves, the covers you choose and your play history live **on
-your phone** and nowhere else. Uninstalling Jawon deletes all of it.
+your phone** and nowhere else. Uninstalling Jawon deletes all of it — except music
+you asked it to copy into your own `Music/Jawon` folder with "Open with Jawon", which
+is yours and stays (see **Outside the app**).
 
 Jawon makes network requests in exactly **six** situations, all described below.
 Two of them happen during ordinary use and each has its own switch: looking up cover
@@ -277,6 +288,48 @@ otherwise no way for the developer to learn that Jawon broke on your phone.
 
 ---
 
+## Outside the app
+
+Since version 0.7.6 parts of Jawon reach past its own window. All of it happens **on your
+phone**; none of it goes to the developer.
+
+**Your car, the assistant, and Android's media controls.** A music player is reached by other
+parts of the phone through a standard Android interface, and Jawon now offers it. Through it
+**Android Auto**, the phone's **assistant** (when you say "play … on Jawon") and Android's own
+**media controls** can read the **names of your shelves, records and songs and the records'
+covers**, see **what is playing**, and **start, pause and skip**. Jawon does not let just any
+app do this: it admits only itself, a car, and software your phone already trusts with media —
+the system, and apps **you** have given notification access (a watch's companion app, for
+example), which could already see what is playing. What a car or an assistant does with a
+title once it has it — showing it, or sending your spoken request to its maker to be
+understood — is governed by **their** privacy policies, not this one. Jawon itself sends them
+nothing over the network.
+
+**Covers.** So that a car's screen can draw a record's cover, Jawon makes each cover readable
+by other apps on the phone at an address containing that record's internal identifier — a long
+random string. An app that does not already know the identifier cannot find or list covers.
+Only the picture is readable this way: no titles, no files, nothing else.
+
+**The widget, the tile and the shortcuts.** These show the record you were last playing — its
+name, artist and cover — on your home screen, in Quick Settings and in the menu on Jawon's
+icon. That is your launcher and Android drawing what Jawon hands them, on your phone. Anyone
+who can see your unlocked screen can see them, as they could see the app.
+
+**"Open with Jawon".** When you choose Jawon to open a song or an album ZIP from another app,
+Jawon reads **only what you handed it** and **copies** the music into a folder called
+`Music/Jawon` in your phone's shared storage (on Android 9, into Jawon's own music folder).
+That folder is yours: other apps that can read your music can see those files, as with any
+music file, and **they are not deleted when you uninstall Jawon**. No permission is needed or
+asked for this.
+
+**Resume with headphones — off unless you turn it on.** With this setting on, Jawon watches
+for headphones connecting **while it is already running**, to carry on a record they
+interrupted, and answers a "play" button on a headset or a car even when it was closed. It
+uses no Bluetooth permission and learns nothing about the headphones beyond that an audio
+output of that kind appeared. With the setting off, nothing can start playback except you.
+
+---
+
 ## Permissions, and why
 
 | Permission | Why |
@@ -323,7 +376,8 @@ There is no account with Jawon to close, and no request to make of anyone.
 
 What uninstalling does **not** reach is anything outside the phone: a music server
 you set up, which is yours and keeps whatever it keeps; the files of a CD you ripped,
-which live in the folder you chose for them; and, if you connected Spotify in an
+which live in the folder you chose for them; music you opened with Jawon, which was
+copied into your own `Music/Jawon` folder and stays there; and, if you connected Spotify in an
 earlier version, your Spotify account, where you can remove Jawon's access from the
 apps list in your account settings.
 
