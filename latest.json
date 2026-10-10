@@ -1,7 +1,7 @@
 {
-  "versionCode": 18,
-  "versionName": "0.7.3 beta",
-  "notes": "Rooms switch instantly: ROOMS in the bar, or shake the phone. Close a case and the record plays on, with a bar at the foot of the wall. The pocket player turns sideways for Cover Flow, locks in your pocket, and has a game: Extras, Brick. A new icon and Settings, rebuilt.",
-  "apkUrl": "https://github.com/veneficus7/javon-releases/releases/download/v0.7.3/jawon-0.7.3-beta.apk",
-  "sizeBytes": 41228881
+  "versionCode": 19,
+  "versionName": "0.7.4 beta",
+  "notes": "Settings now has a Guide to every special feature. Scan results show covers and keep stray songs as Singles. Removing a record can be undone. The deck shows four tracks, and the pocket player can search.",
+  "apkUrl": "https://github.com/veneficus7/javon-releases/releases/download/v0.7.4/jawon-0.7.4-beta.apk",
+  "sizeBytes": 41278033
 }
