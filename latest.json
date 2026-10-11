@@ -1,7 +1,7 @@
 {
-  "versionCode": 21,
-  "versionName": "0.7.6 beta",
-  "notes": "Use Jawon without opening it: a home-screen widget, shortcuts, a quick tile, Android Auto, \"Play ... on Jawon\" by voice, and Open with Jawon for songs and album ZIPs. One longer intro instead of two short ones, and CD import with steps.",
-  "apkUrl": "https://github.com/veneficus7/javon-releases/releases/download/v0.7.6/jawon-0.7.6-beta.apk",
-  "sizeBytes": 26054976
+  "versionCode": 22,
+  "versionName": "0.7.7 beta",
+  "notes": "The scratch, rebuilt: put a finger on the spinning disc and it winds down, follows your hand, and winds back up when you let go, with no gap in the music. A turn of the disc is now a record's own gearing while you scratch, and speeds up if you keep turning.",
+  "apkUrl": "https://github.com/veneficus7/javon-releases/releases/download/v0.7.7/jawon-0.7.7-beta.apk",
+  "sizeBytes": 26120508
 }
