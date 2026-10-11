@@ -1,7 +1,7 @@
 {
-  "versionCode": 22,
-  "versionName": "0.7.7 beta",
-  "notes": "The scratch, rebuilt: put a finger on the spinning disc and it winds down, follows your hand, and winds back up when you let go, with no gap in the music. A turn of the disc is now a record's own gearing while you scratch, and speeds up if you keep turning.",
-  "apkUrl": "https://github.com/veneficus7/javon-releases/releases/download/v0.7.7/jawon-0.7.7-beta.apk",
-  "sizeBytes": 26120508
+  "versionCode": 23,
+  "versionName": "0.7.8 beta",
+  "notes": "Two things that should be instant. Spin the disc to another part of a song and let go: the music now plays from exactly there, straight away. And opening, closing and coming back to the app is smoother: the room pauses while your phone slides it in and out.",
+  "apkUrl": "https://github.com/veneficus7/javon-releases/releases/download/v0.7.8/jawon-0.7.8-beta.apk",
+  "sizeBytes": 26695497
 }
