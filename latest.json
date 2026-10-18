@@ -1,7 +1,7 @@
 {
-  "versionCode": 23,
-  "versionName": "0.7.8 beta",
-  "notes": "Two things that should be instant. Spin the disc to another part of a song and let go: the music now plays from exactly there, straight away. And opening, closing and coming back to the app is smoother: the room pauses while your phone slides it in and out.",
-  "apkUrl": "https://github.com/veneficus7/javon-releases/releases/download/v0.7.8/jawon-0.7.8-beta.apk",
-  "sizeBytes": 26695497
+  "versionCode": 24,
+  "versionName": "0.8 beta",
+  "notes": "The vinyl room: dig through a crate of your records, put one on the turntable and drop the needle, and turn it over at the end of a side. Choose it from the showroom or Settings → Room.",
+  "apkUrl": "https://github.com/veneficus7/javon-releases/releases/download/v0.8/jawon-0.8-beta.apk",
+  "sizeBytes": 27087986
 }
