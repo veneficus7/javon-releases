@@ -1,7 +1,7 @@
 {
-  "versionCode": 24,
-  "versionName": "0.8 beta",
-  "notes": "The vinyl room: dig through a crate of your records, put one on the turntable and drop the needle, and turn it over at the end of a side. Choose it from the showroom or Settings → Room.",
-  "apkUrl": "https://github.com/veneficus7/javon-releases/releases/download/v0.8/jawon-0.8-beta.apk",
-  "sizeBytes": 27087986
+  "versionCode": 25,
+  "versionName": "0.9 beta",
+  "notes": "The cassette room: your albums as tapes in racks on the wall, a deck whose keys work as a real one's did, auto-reverse or the tape turned over by hand, and the sound of tape. Choose it from the showroom or Settings → Room.",
+  "apkUrl": "https://github.com/veneficus7/javon-releases/releases/download/v0.9/jawon-0.9-beta.apk",
+  "sizeBytes": 27698518
 }
