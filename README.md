@@ -1,11 +1,11 @@
 # Jawon — beta builds
 
-Release APKs for [Jawon](https://github.com/veneficus7/javon), a local-first
+Release APKs for [Jawon](https://github.com/veneficus7/jawon), a local-first
 Android music player where the library is a room rather than a list.
 
-**The source lives in a private repository.** This one exists only so the app can
-check for its own updates: an updater cannot authenticate to a private repo
-without shipping a token inside the APK, where anyone could read it back out.
+**The source is at [veneficus7/jawon](https://github.com/veneficus7/jawon).** This
+repository holds only the signed APKs and `latest.json`, the manifest the app reads
+when it checks for its own updates.
 
 ## Installing
 
