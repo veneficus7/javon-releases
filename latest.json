@@ -1,7 +1,7 @@
 {
-  "versionCode": 25,
-  "versionName": "0.9 beta",
-  "notes": "The cassette room: your albums as tapes in racks on the wall, a deck whose keys work as a real one's did, auto-reverse or the tape turned over by hand, and the sound of tape. Choose it from the showroom or Settings → Room.",
-  "apkUrl": "https://github.com/veneficus7/javon-releases/releases/download/v0.9/jawon-0.9-beta.apk",
-  "sizeBytes": 27698518
+  "versionCode": 26,
+  "versionName": "0.9.1 beta",
+  "notes": "The CD room asks far less of your phone: its shelf lights are worked out once instead of every frame — about three times the frame rate on a Galaxy S25 Ultra, for a fifth of the work. It should look the same.",
+  "apkUrl": "https://github.com/veneficus7/javon-releases/releases/download/v0.9.1/jawon-0.9.1-beta.apk",
+  "sizeBytes": 28220014
 }
